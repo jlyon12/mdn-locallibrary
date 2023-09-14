@@ -176,7 +176,6 @@ exports.book_delete_get = asyncHandler(async (req, res, next) => {
 		book: book,
 		book_instances: allBookInstancesByBook,
 	});
-	console.log(allBookInstancesByBook);
 });
 
 // Handle book delete on POST.
